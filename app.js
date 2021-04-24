@@ -1,15 +1,3 @@
-const { Collection } = require("discord.js");
-const { readdirSync } = require("fs");
-const { TOKEN } = require("./config");
-const Nana = require("./lib/NanaClient");
-// require("./server");
-
-const client = new Nana({
-    cacheGuilds: true,
-    cacheChannels: true,
-    fetchAllMembers: true,
-    disableEvents: ["GUILD_SYNC", "PRESENCE_UPDATE", "TYPING_START"]
-});
 
 const http = require('http');
 const port = process.env.PORT || 8000
@@ -23,6 +11,21 @@ const server = http.createServer((req, res) => {
 server.listen(port,() => {
   console.log(`Server running at port `+port);
 });
+
+const { Collection } = require("discord.js");
+const { readdirSync } = require("fs");
+const { TOKEN } = require("./config");
+const Nana = require("./lib/NanaClient");
+// require("./server");
+
+const client = new Nana({
+    cacheGuilds: true,
+    cacheChannels: true,
+    fetchAllMembers: true,
+    disableEvents: ["GUILD_SYNC", "PRESENCE_UPDATE", "TYPING_START"]
+});
+
+
 
 // events
 for (const event of readdirSync("./events")) {

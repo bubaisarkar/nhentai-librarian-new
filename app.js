@@ -33,6 +33,8 @@ for (const command of readdirSync("./commands").filter(x =>
     }
 }
 
+app.listen(process.env.PORT || 3000,);
+
 client.login(TOKEN);
 
 module.exports = Nana;

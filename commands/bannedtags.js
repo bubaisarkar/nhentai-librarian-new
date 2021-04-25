@@ -7,10 +7,8 @@ exports.run = async (client, msg, args, color) => {
     const embed = new MessageEmbed()
       .setColor(color)
       .setTitle("Banned Tags List")
-      .setDescription(
-      )
       .addField(
-        `
+`
 - \`Shotacon\`
 - \`Lolicon\`
 - \`Bestality\`
@@ -18,6 +16,16 @@ exports.run = async (client, msg, args, color) => {
 - \`Yaoi\`
 - \`Amputte\`
 - \`Gore\`
+- \`Low-Bestiality\`
+- \`Scat\`
+- \`Low-Shotacon\`
+- \`Low-Smegma\`
+- \`Smegma\`
+- \`Low-Lolicon\`
+- \`Centaur\`
+- \`Cannibalism\`
+- \`Necrophilia\`
+- \`Ryona\`
 `
       )
       .setFooter(`Nhentai Librarian${client.version} || <> = required, [] = optional`)

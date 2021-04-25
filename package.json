@@ -9,11 +9,12 @@
     "lint:fix": "npm run lint -- --fix"
   },
   "dependencies": {
-    "sqlite3": "^5.0.0",
-    "discord.js": "12.2.0",
     "axios": ">=0.21.1",
+    "discord.js": "12.2.0",
+    "discord.js-light": "3.1.1",
     "nana-api": "^1.1.2",
-    "discord.js-light": "3.1.1"
+    "sqlite3": "^5.0.0",
+    "woke-dyno": "0.0.4"
   },
   "engines": {
     "node": "14.x"

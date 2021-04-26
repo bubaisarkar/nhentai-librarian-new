@@ -1,8 +1,5 @@
 exports.run = async (client, msg, args, color) => {
-  if (!msg.channel.nsfw)
-    return msg.channel
-      .send(`Nhentai Librarian Needs NSFW channel.`)
-      .then(msg => msg.delete({ timeout: 5000 }));
+ 
   let nick =
     msg.member.nickname !== null
       ? `${msg.member.nickname}`

@@ -3,11 +3,6 @@ const nHentaiAPI = require("nana-api");
 let api = new nHentaiAPI();
 
 exports.run = async (client, msg, args, color) => {
-  if (!msg.channel.nsfw)
-    return msg.channel
-      .send(`Nhentai Librarian Needs NSFW channel`)
-      .then(msg => msg.delete({ timeout: 5000 }));
-
   // let patt = /^\d+$/;
   // if (patt.test(args[0]))
   //   return undefined;

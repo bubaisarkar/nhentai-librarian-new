@@ -26,6 +26,7 @@ exports.run = async (client, msg, args, color) => {
 - \`Cannibalism\`
 - \`Necrophilia\`
 - \`Ryona\`
+- \`Insect\`
 `
       )
       .setFooter(`Nhentai Librarian${client.version} || <> = required, [] = optional`)

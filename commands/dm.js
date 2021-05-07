@@ -1,5 +1,8 @@
 exports.run = async (client, msg, args, color) => {
+<<<<<<< HEAD
  
+=======
+>>>>>>> 0cfad0064616493d8536f4c08cabb867b3b71961
   let nick =
     msg.member.nickname !== null
       ? `${msg.member.nickname}`

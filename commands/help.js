@@ -8,7 +8,7 @@ exports.run = async (client, msg, args, color) => {
       .setColor(color)
       .setTitle("Nhentai Librarian Help")
       .setDescription(
-        ` Developer Note : Its help you to directly read doujinshi on nHentai from your Discord channel, For help dm me B.S#2827`
+        ` Developer Note : Its help you to directly read doujinshi on nHentai from your Discord channel, For help dm me <@588636004429070346>`
       )
       .addField(
         "Command list",

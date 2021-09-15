@@ -27,9 +27,10 @@ exports.run = async (client, msg, args, color) => {
 - \`Necrophilia\`
 - \`Ryona\`
 - \`Insect\`
+- \`Dog\`
 `
       )
-      .setFooter(`Nhentai Librarian${client.version} || <> = required, [] = optional`)
+      .setFooter(`Nhentai Librarian${client.version})
       .addField(
         "Banned Note: ",
         `Nhentai Librarian Don't show any banned doujins`
